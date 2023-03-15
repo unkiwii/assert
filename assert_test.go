@@ -46,7 +46,7 @@ func TestNil_successWithNilValueTypedInterface(t *testing.T) {
 	var reader io.Reader = buf // interface with nil value
 
 	if reader == nil {
-		t.Fatal("interface whith nil value should not be nil")
+		t.Fatal("interface with nil value should not be nil")
 	}
 
 	var mock tMock
