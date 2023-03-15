@@ -1,5 +1,6 @@
 # unkiwii/assert
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/unkiwii/assert.svg)](https://pkg.go.dev/github.com/unkiwii/assert)
 [![Go Report Card](https://goreportcard.com/badge/github.com/unkiwii/assert)](https://goreportcard.com/report/github.com/unkiwii/assert)
 
 A very simple package to compare test results in [Go](https://go.dev/)
@@ -13,8 +14,6 @@ This package has only 5 functions:
   * Equals: fails the test if the values are no equal
   * IsError: fails the test if 2 errors are not equivalent
   * AsError: fails the test if 2 error types are not equivalent
-
-Complete reference [here](https://pkg.go.dev/github.com/unkiwii/assert)
 
 ## Usage
 
